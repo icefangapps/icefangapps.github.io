@@ -1,38 +1,58 @@
 {
-  "default": {
-    "apps": ["game1","game2"],
-    "studio": "http://wtf.com"
+  "channel": {
+    "default": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://wtf.com"
+    },
+    "ios": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://ios.com"
+    },
+    "googleplay": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://googleplay.com"
+    },
+    "amazon": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://amazon.com"
+    },
+    "huawei": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://huawei.com"
+    },
+    "samsung": {
+      "apps": [
+        "game1",
+        "game2"
+      ],
+      "home": "http://samsung.com"
+    }
   },
-  "ios": {
-    "apps": ["game1","game2"],
-    "studio": "http://ios.com"
-  },
-  "googleplay": {
-    "apps": ["game1","game2"],
-    "studio": "http://googleplay.com"
-  },
-  "amazon": {
-    "apps": ["game1","game2"],
-    "studio": "http://amazon.com"
-  },
-  "huawei": {
-    "apps": ["game1","game2"],
-    "studio": "http://huawei.com"
-  },
-  "samsung": {
-    "apps": ["game1","game2"],
-    "studio": "http://samsung.com"
-  },
-  "apps": {
+  "app": {
     "game1": {
       "name": {
         "default": "game1",
         "cn": "草",
         "ru": "XX"
       },
-      "desc" : {
-        "default" : "desc1",
-        "cn" : "草草草"
+      "desc": {
+        "default": "desc1",
+        "cn": "草草草"
       },
       "ico": "http://test.com/test.png",
       "store": {
@@ -41,7 +61,7 @@
         "amazon": "http://amazon.com",
         "huawei": "http://huawei.com",
         "samsung": "http://samsung.com",
-        "default" : "http://wtf.apk"
+        "default": "http://wtf.apk"
       }
     },
     "game2": {
@@ -50,9 +70,9 @@
         "cn": "草草2",
         "ru": "XX"
       },
-      "desc" : {
-        "default" : "desc1",
-        "cn" : "草草草"
+      "desc": {
+        "default": "desc1",
+        "cn": "草草草"
       },
       "ico": "http://test.com/test.png",
       "store": {
@@ -61,7 +81,7 @@
         "amazon": "http://amazon.com",
         "huawei": "http://huawei.com",
         "samsung": "http://samsung.com",
-        "default" : "http://wtf.apk"
+        "default": "http://wtf.apk"
       }
     }
   }
