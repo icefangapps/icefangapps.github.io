@@ -1,88 +1,82 @@
 {
-  "channel": {
+  "ver": 1,
+  "channels": {
     "default": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://wtf.com"
+      "home": "https://icefang.com"
     },
     "ios": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://ios.com"
+      "home": "https://icefang.com"
     },
     "googleplay": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://googleplay.com"
+      "home": "https://icefang.com"
     },
     "amazon": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://amazon.com"
+      "home": "https://icefang.comm"
     },
     "huawei": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://huawei.com"
+      "home": "https://icefang.com"
     },
     "samsung": {
-      "apps": [
-        "game1",
-        "game2"
-      ],
-      "home": "http://samsung.com"
+      "home": "https://icefang.com"
+    },
+    "taptap": {
+      "home": "https://www.taptap.com/developer/88288"
     }
   },
-  "app": {
-    "game1": {
+  "apps": [
+    {
+      "id" : "all_in_one",
       "name": {
-        "default": "game1",
-        "cn": "草",
-        "ru": "XX"
+        "default": "Mahjong Zen:ASMR",
+        "cn": "麻将宗师"
       },
       "desc": {
-        "default": "desc1",
-        "cn": "草草草"
+        "default": "Epic Mahjong Solitaire!"
       },
-      "ico": "http://test.com/test.png",
+      "ico": "https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/f6/f2/85/f6f285c6-efc8-d157-b6c4-e5db2e35331c/source/100x100bb.jpg",
       "store": {
-        "ios": "itms://test",
-        "googleplay": "http://googleplay.com",
-        "amazon": "http://amazon.com",
-        "huawei": "http://huawei.com",
-        "samsung": "http://samsung.com",
-        "default": "http://wtf.apk"
+        "ios": "itms-apps://itunes.apple.com/app/1511191001",
+        "googleplay": "market://details?id=ice.mahjong.zen.gp",
+        "amazon": "amzn://apps/android?asin=B088HGKB41",
+        "huawei": "https://appgallery1.huawei.com/#/app/C102737599",
+        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=ice.mahjong.zen.sss"
       }
     },
-    "game2": {
+    {
+      "id": "merge",
       "name": {
-        "default": "game2",
-        "cn": "草草2",
-        "ru": "XX"
+        "default": "Mahjong Merge:ASMR",
+        "cn": "麻将合成大师"
       },
       "desc": {
-        "default": "desc1",
-        "cn": "草草草"
+        "default": "Tap and Merge!"
       },
-      "ico": "http://test.com/test.png",
+      "ico": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f8/71/2b/f8712b19-3ad2-53e3-669f-92d6f49b3e19/source/100x100bb.jpg",
       "store": {
-        "ios": "itms://test",
-        "googleplay": "http://googleplay.com",
+        "ios": "itms-apps://itunes.apple.com/app/1556631915",
+        "googleplay": "market://details?id=ice.mahjong.merge",
         "amazon": "http://amazon.com",
-        "huawei": "http://huawei.com",
-        "samsung": "http://samsung.com",
-        "default": "http://wtf.apk"
+        "huawei": "https://appgallery1.huawei.com/#/app/C103957107",
+        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=ice.mahjong.merge",
+        "taptap": "https://www.taptap.com/app/198703"
+      }
+    },
+    {
+      "id": "mahjong_jp",
+      "name": {
+        "default": "Amazing Mahjong: Japan Edition",
+        "cn": "超凡麻将:和风"
+      },
+      "desc": {
+        "default": ""
+      },
+      "ico": "https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/3c/15/38/3c1538cf-97f0-3983-7be4-505a2bd43580/source/100x100bb.jpg",
+      "store": {
+        "ios": "itms-apps://itunes.apple.com/app/1556631915",
+        "googleplay": "market://details?id=com.icefang.a.mahjongjp",
+        "huawei": "https://appgallery1.huawei.com/#/app/C102961597",
+        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=com.icefang.a.mahjongjp.globalfree"
       }
     }
-  }
+  ]
 }
