@@ -32,7 +32,7 @@
       "name": {
         "default": "Mahjong Zen:ASMR",
         "zh": "麻将宗师：大合集",
-        "zh_tw" : "麻將宗師：大合集"
+        "zh_tw": "麻將宗師：大合集"
       },
       "desc": {
         "default": "Epic Mahjong Solitaire!"
@@ -52,18 +52,17 @@
       "name": {
         "default": "Mahjong Merge:ASMR",
         "zh": "麻将合成大师",
-        "zh_tw" : "麻將合成大師"
+        "zh_tw": "麻將合成大師"
       },
       "desc": {
         "default": "Tap and Merge!",
-        "zh" : "成为合成高手"
+        "zh": "成为合成高手"
       },
       "ico": "https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/f8/71/2b/f8712b19-3ad2-53e3-669f-92d6f49b3e19/source/100x100bb.jpg",
       "store": {
         "web": "https://icefang.com",
         "ios": "itms-apps://itunes.apple.com/app/1556631915",
         "googleplay": "market://details?id=ice.mahjong.merge",
-        "amazon": "http://amazon.com",
         "huawei": "https://appgallery1.huawei.com/#/app/C103957107",
         "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=ice.mahjong.merge",
         "taptap": "https://www.taptap.com/app/198703"
@@ -74,7 +73,7 @@
       "name": {
         "default": "Amazing Mahjong: Japan Edition",
         "zh": "超凡麻将：和风",
-        "zh_tw" : "超凡麻將：和風"
+        "zh_tw": "超凡麻將：和風"
       },
       "desc": {
         "default": ""
@@ -85,7 +84,8 @@
         "ios": "itms-apps://itunes.apple.com/app/1556631915",
         "googleplay": "market://details?id=com.icefang.a.mahjongjp",
         "huawei": "https://appgallery1.huawei.com/#/app/C102961597",
-        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=com.icefang.a.mahjongjp.globalfree"
+        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=com.icefang.a.mahjongjp.globalfree",
+        "amazon" : "https://www.amazon.com/gp/product/B07927XBMH"
       }
     }
   ]
