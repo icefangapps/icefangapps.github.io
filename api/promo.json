@@ -44,7 +44,8 @@
         "googleplay": "market://details?id=ice.mahjong.zen.gp",
         "amazon": "amzn://apps/android?asin=B088HGKB41",
         "huawei": "https://appgallery1.huawei.com/#/app/C102737599",
-        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=ice.mahjong.zen.sss"
+        "samsung": "https://apps.samsung.com/gear/appDetail.as?appId=ice.mahjong.zen.sss",
+        "taptap": "https://www.taptap.com/app/198703"
       }
     },
     {
